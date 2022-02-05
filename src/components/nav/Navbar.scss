@@ -1,0 +1,80 @@
+@import "../../global.scss";
+nav {
+    width: 100%;
+    height: 90px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+    color: $mainColor;
+    transition: all 2s ease;
+    .wrapper {
+        padding: 0.6rem 2rem;
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content: space-between;
+        .nav-links {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            @include mobile {
+                display: none;
+            }
+        }
+        .nav-links a {
+            text-decoration: none;
+            text-transform: uppercase;
+            margin-right: 1.5rem;
+            font-family: inherit;
+            color: inherit;
+            font-size: 1.5rem;
+            font-weight: 500;
+        }
+        .icons {
+            font-size: 3.75rem;
+            transition: all 2s ease;
+            color: rgb(173, 58, 196);
+        }
+        .toggle-bar {
+            display: none;
+            width: 30px;
+            height: 25px;
+            cursor: pointer;
+            @include mobile {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+            span {
+                width: 100%;
+                height: 3px;
+                background-color: $iconColor;
+                transform-origin: left;
+                transition: all 2s ease;
+            }
+        }
+    }
+    &.active {
+        background-color: $mainColor;
+        color: #fff;
+        .icons {
+            color: #fff;
+        }
+        .toggle-bar {
+            color: #fff;
+            span {
+                background-color: #fff;
+                &:first-child {
+                    transform: rotate(45deg);
+                }
+                &:nth-child(2) {
+                    opacity: 0;
+                }
+                &:last-child {
+                    transform: rotate(-45deg);
+                }
+            }
+        }
+    }
+}
