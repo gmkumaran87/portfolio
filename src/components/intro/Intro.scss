@@ -1,0 +1,84 @@
+@import "../../global.scss";
+.intro {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 80%;
+    margin: 0 auto;
+    height: calc(100vh - 90px);
+    @include mobile {
+        display: flex;
+        flex-flow: column;
+    }
+    .left {
+        flex: 0.5;
+        .imgContainer {
+            width: 100%;
+            max-width: 600px;
+            // height: 100%;
+            max-height: 600px;
+            background-color: crimson;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            // float: right;
+            img {
+                width: 100%;
+                @include mobile {
+                    height: 290px;
+                }
+            }
+        }
+    }
+    .right {
+        flex: 0.5;
+        background-color: #fff;
+        .wrapper {
+            padding: 2rem;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-flow: column;
+            // padding-left: 30px;
+            justify-content: center;
+            align-items: flex-start;
+            @include mobile {
+                padding: 0.5rem 1rem;
+                align-items: center;
+            }
+            h1 {
+                font-size: 3rem;
+                margin: 1rem 0;
+                @include mobile {
+                    font-size: 1.9rem;
+                }
+            }
+            h2 {
+                font-size: 2rem;
+                @include mobile {
+                    font-size: 1.5rem;
+                }
+            }
+            h3 {
+                font-size: 1.72rem;
+                @include mobile {
+                    font-size: 1.2rem;
+                }
+                span {
+                    color: crimson;
+                }
+                .ityped-cursor {
+                    animation: blink 1s infinite;
+                }
+                @keyframes blink {
+                    50% {
+                        opacity: 1;
+                    }
+                    100% {
+                        opacity: 0;
+                    }
+                }
+            }
+        }
+    }
+}
