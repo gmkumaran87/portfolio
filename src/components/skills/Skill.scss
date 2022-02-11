@@ -1,3 +1,63 @@
+@import "../../global.scss";
 .skills {
-    background-color: yellowgreen;
+    width: 85%;
+    margin: 2rem auto;
+    height: calc(100vh - 90px);
+    font-family: "Josefin Sans", sans-serif;
+    padding: 1rem 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    & .title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+        & h1 {
+            margin-bottom: 1rem;
+            font-size: 2rem;
+        }
+        & .underline {
+            width: 75px;
+            height: 4px;
+            background-color: $mainColor;
+        }
+    }
+    & .wrapper {
+        width: 100%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-around;
+        align-items: center;
+        gap: 3rem;
+        @include mobile {
+            display: flex;
+            flex-flow: column nowrap;
+        }
+        & img {
+            width: 100px;
+            height: 100px;
+        }
+        & .container {
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            & h2 {
+                margin-bottom: 2rem;
+                font-size: 1.7rem;
+            }
+            & .img-wrapper {
+                width: 80%;
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: center;
+                align-items: center;
+                gap: 3rem;
+            }
+        }
+    }
 }

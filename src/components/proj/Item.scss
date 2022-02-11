@@ -1,0 +1,57 @@
+@import "../../global.scss";
+.items-card {
+    display: flex;
+    justify-content: center;
+    width: 275px;
+    height: 250px;
+    border-radius: 5px;
+    border: 0.25rem solid $mainColor;
+    position: relative;
+    &:hover {
+        & img {
+            opacity: 0.2;
+        }
+        & .project-desc {
+            display: flex;
+            flex-flow: column;
+            justify-content: space-between;
+            align-items: center;
+            position: absolute;
+            top: 10%;
+            left: 10%;
+            height: 75%;
+            & ul {
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: space-around;
+                align-items: center;
+                margin-bottom: 1rem;
+                & li {
+                    margin-right: 0.51rem;
+                    list-style-type: none;
+                }
+            }
+        }
+    }
+    & img {
+        width: 100%;
+        object-fit: cover;
+        &:hover {
+            opacity: 0.2;
+            background-color: $mainColor;
+        }
+    }
+    & .project-desc {
+        display: none;
+    }
+    & .proj-btn {
+        margin-right: 0.5rem;
+        padding: 0.5rem;
+        border: none;
+        border-radius: 3px;
+        letter-spacing: 2px;
+        font-family: inherit;
+        background-color: $mainColor;
+        color: #fff;
+    }
+}

@@ -8,6 +8,7 @@
     @include mobile {
         display: flex;
         flex-flow: column;
+        height: 500px;
     }
     .left {
         flex: 0.5;

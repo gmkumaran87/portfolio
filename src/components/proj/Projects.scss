@@ -1,4 +1,79 @@
+@import "../../global.scss";
 .projects {
-    height: 100vh;
-    background-color: aqua;
+    margin: 4rem auto;
+    // height: 100vh;
+    // background-color: aqua;
+    padding: 0.75rem;
+    width: 90%;
+    font-family: "Josefin Sans", sans-serif;
+    @include mobile {
+        width: 100%;
+        height: auto;
+    }
+    & .title {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    & h1 {
+        font-family: inherit;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        @include mobile {
+            font-size: 1.5rem;
+            text-align: center;
+        }
+    }
+    & .underline {
+        width: 70px;
+        height: 4px;
+        background-color: $mainColor;
+    }
+    .categories {
+        margin: 2rem;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        @include mobile {
+            margin: 1rem;
+        }
+        & button {
+            margin-right: 1rem;
+            padding: 0.5rem 1rem;
+            background-color: transparent;
+            border: none;
+            font-size: 1.3rem;
+            color: $mainColor;
+            text-transform: capitalize;
+            border-radius: 5px;
+            letter-spacing: 3px;
+            font-family: inherit;
+            @include mobile {
+                margin-right: 0.5rem;
+                font-size: 1rem;
+                padding: 0.25rem 0.5rem;
+            }
+            &:active,
+            &:hover {
+                background-color: $mainColor;
+                color: #fff;
+            }
+        }
+    }
+    .project-items {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: start;
+        gap: 2rem;
+        margin-top: 1rem;
+        @include mobile {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+        }
+    }
 }

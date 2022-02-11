@@ -1,13 +1,14 @@
 .App {
     height: 100vh;
     .sections {
-        height: calc(540px - 90px);
+        margin-top: 1rem;
+        height: calc(100vh - 0px);
         position: relative;
         top: 70px;
         left: 0;
         scroll-snap-type: y mandatory;
         &>* {
-            height: calc(550px - 90px);
+            // height: calc(100vh - 90px);
             scroll-snap-align: start;
         }
     }
