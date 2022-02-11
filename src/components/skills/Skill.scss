@@ -9,6 +9,9 @@
     flex-flow: column nowrap;
     justify-content: flex-start;
     align-items: center;
+    @include mobile {
+        height: auto;
+    }
     & .title {
         display: flex;
         flex-direction: column;
@@ -18,6 +21,9 @@
         & h1 {
             margin-bottom: 1rem;
             font-size: 2rem;
+            @include mobile {
+                font-size: 1.5rem;
+            }
         }
         & .underline {
             width: 75px;
@@ -39,6 +45,10 @@
         & img {
             width: 100px;
             height: 100px;
+            @include mobile {
+                width: 50px;
+                height: 50px;
+            }
         }
         & .container {
             display: flex;
@@ -49,6 +59,9 @@
             & h2 {
                 margin-bottom: 2rem;
                 font-size: 1.7rem;
+                @include mobile {
+                    font-size: 1.2rem;
+                }
             }
             & .img-wrapper {
                 width: 80%;
@@ -57,6 +70,9 @@
                 justify-content: center;
                 align-items: center;
                 gap: 3rem;
+                @include mobile {
+                    gap: 1.5rem;
+                }
             }
         }
     }
