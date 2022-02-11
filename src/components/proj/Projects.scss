@@ -1,8 +1,6 @@
 @import "../../global.scss";
 .projects {
     margin: 4rem auto;
-    // height: 100vh;
-    // background-color: aqua;
     padding: 0.75rem;
     width: 90%;
     font-family: "Josefin Sans", sans-serif;
@@ -66,7 +64,7 @@
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
-        align-items: start;
+        align-items: flex-start;
         gap: 2rem;
         margin-top: 1rem;
         @include mobile {
