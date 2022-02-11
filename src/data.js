@@ -5,7 +5,8 @@ const projects = [{
         desc: "App displays random Kural fetched from Publi APIs and gets input number between 0-1330 to display respective kural.",
         image: "assets/thirukural-api.png",
         tech: ["JS", "HTML", "CSS"],
-        url: "",
+        url: "https://thirukkural-daily.netlify.app/",
+        githubUrl: "https://github.com/gmkumaran87/thirukkural_daily",
     },
     {
         id: 2,
@@ -14,7 +15,8 @@ const projects = [{
         desc: "App displays random Photography Image fetched from Publi APIs.",
         image: "assets/photography-proj.png",
         tech: ["JS", "HTML", "CSS"],
-        url: "",
+        url: "https://photo-viewer-gmkumaran87.netlify.app/",
+        githubUrl: "https://github.com/gmkumaran87/random_photos",
     },
     {
         id: 3,
@@ -23,7 +25,8 @@ const projects = [{
         desc: "App displays random Brewery content fetched from Publi APIs and gets input of places,brand to display respective breweries.",
         image: "assets/open-brewery.png",
         tech: ["JS", "HTML", "CSS"],
-        url: "",
+        url: "https://brewery-app-gmkumaran87.netlify.app/",
+        githubUrl: "https://github.com/gmkumaran87/brewery-app",
     },
     {
         id: 4,
@@ -33,6 +36,7 @@ const projects = [{
         image: "assets/food-order-app.png",
         tech: ["REACT", "HTML", "CSS"],
         url: "https://gmkumaran87.github.io/food-order-app/",
+        githubUrl: "https://github.com/gmkumaran87/food-order-app",
     },
     {
         id: 5,
@@ -42,6 +46,7 @@ const projects = [{
         image: "assets/drummer.png",
         tech: ["REACT", "HTML", "CSS"],
         url: "https://codepen.io/gmkumaran87/full/xxqEvMX",
+        githubUrl: "https://github.com/gmkumaran87/brewery-app",
     },
     {
         id: 6,
@@ -51,6 +56,7 @@ const projects = [{
         image: "assets/quote-generator.png",
         tech: ["REACT", "HTML", "CSS"],
         url: "https://codepen.io/gmkumaran87/full/ExWjmOW",
+        githubUrl: "https://github.com/gmkumaran87/brewery-app",
     },
     {
         id: 7,
@@ -60,6 +66,7 @@ const projects = [{
         image: "assets/admin-ui.png",
         tech: ["REACT", "HTML", "CSS"],
         url: "https://gmkumaran87.github.io/admin-ui/",
+        githubUrl: "https://github.com/gmkumaran87/admin-ui",
     },
     {
         id: 8,
@@ -69,6 +76,7 @@ const projects = [{
         image: "assets/pomodromo.png",
         tech: ["REACT", "HTML", "CSS"],
         url: "https://codepen.io/gmkumaran87/full/WNpErKE",
+        githubUrl: "https://github.com/gmkumaran87/brewery-app",
     },
 ];
 

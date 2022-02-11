@@ -15,8 +15,16 @@ const Items = ({ item }) => {
         </ul>
         <p>{item.desc}</p>
         <div className="project-actions">
-          <button className="proj-btn">Github</button>
-          <button className="proj-btn">Live Site</button>
+          <button className="proj-btn">
+            <a href={item.githubUrl} target="_blank" rel="noreferrer">
+              Github
+            </a>
+          </button>
+          <button className="proj-btn">
+            <a href={item.url} target="_blank" rel="noreferrer">
+              Live Site{" "}
+            </a>
+          </button>
         </div>
       </div>
     </article>
