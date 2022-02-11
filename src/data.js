@@ -5,6 +5,7 @@ const projects = [{
         desc: "App displays random Kural fetched from Publi APIs and gets input number between 0-1330 to display respective kural.",
         image: "assets/thirukural-api.png",
         tech: ["JS", "HTML", "CSS"],
+        url: "",
     },
     {
         id: 2,
@@ -13,6 +14,7 @@ const projects = [{
         desc: "App displays random Photography Image fetched from Publi APIs.",
         image: "assets/photography-proj.png",
         tech: ["JS", "HTML", "CSS"],
+        url: "",
     },
     {
         id: 3,
@@ -21,6 +23,7 @@ const projects = [{
         desc: "App displays random Brewery content fetched from Publi APIs and gets input of places,brand to display respective breweries.",
         image: "assets/open-brewery.png",
         tech: ["JS", "HTML", "CSS"],
+        url: "",
     },
     {
         id: 4,
@@ -29,6 +32,43 @@ const projects = [{
         desc: "App displays restaraunts menu and Users can add items to the Cart and Checkout(Dummy) ",
         image: "assets/food-order-app.png",
         tech: ["REACT", "HTML", "CSS"],
+        url: "https://gmkumaran87.github.io/food-order-app/",
+    },
+    {
+        id: 5,
+        category: "React",
+        title: "Drum Kit App",
+        desc: "App displays Drumms and the User the can play the music on it. Uses REACT and HTML/CSS for the design",
+        image: "assets/drummer.png",
+        tech: ["REACT", "HTML", "CSS"],
+        url: "https://codepen.io/gmkumaran87/full/xxqEvMX",
+    },
+    {
+        id: 6,
+        category: "React",
+        title: "Quote Generator App",
+        desc: "App displays Qoute generator when the User clicks the Quote button. Uses REACT and HTML/CSS for the design",
+        image: "assets/quote-generator.png",
+        tech: ["REACT", "HTML", "CSS"],
+        url: "https://codepen.io/gmkumaran87/full/ExWjmOW",
+    },
+    {
+        id: 7,
+        category: "React",
+        title: "Admin UI App",
+        desc: "App displays the employees details in the page with user navigation buttons and search functionalities. Uses REACT and HTML/CSS for the design",
+        image: "assets/admin-ui.png",
+        tech: ["REACT", "HTML", "CSS"],
+        url: "https://gmkumaran87.github.io/admin-ui/",
+    },
+    {
+        id: 8,
+        category: "React",
+        title: "Pomodromo App",
+        desc: "App displays the Pomodromo clock timer. Uses REACT and HTML/CSS for the design",
+        image: "assets/pomodromo.png",
+        tech: ["REACT", "HTML", "CSS"],
+        url: "https://codepen.io/gmkumaran87/full/WNpErKE",
     },
 ];
 

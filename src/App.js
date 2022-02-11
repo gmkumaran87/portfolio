@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./App.scss";
 import Contacts from "./components/contacts/Contacts";
+import Footer from "./components/footer/Footer";
 import Intro from "./components/intro/Intro";
 import Navbar from "./components/nav/Navbar";
 import Projects from "./components/proj/Projects";
@@ -16,6 +17,7 @@ function App() {
         <Projects />
         <Skill />
         <Contacts />
+        <Footer />
       </div>
     </div>
   );

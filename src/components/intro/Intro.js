@@ -15,7 +15,7 @@ const Intro = () => {
     });
   }, []);
   return (
-    <div className="intro" id="intro">
+    <div className="intro" id="home">
       <div className="left">
         <div className="imgContainer">
           <img src="assets/banner-hero.png" alt="" />
@@ -23,10 +23,9 @@ const Intro = () => {
       </div>
       <div className="right">
         <div className="wrapper">
-          <h2>Hi There I'm...!</h2>
-          <h1>Muthukumaran</h1>
+          <h2> Hi There I 'm...!</h2> <h1> Muthukumaran </h1>
           <h3>
-            Freelance <span ref={typeRef}></span>
+            Frontend <span ref={typeRef}> </span>
           </h3>
         </div>
       </div>

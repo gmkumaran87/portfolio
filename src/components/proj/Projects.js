@@ -21,7 +21,7 @@ const Projects = () => {
     }
   };
   return (
-    <div className="projects">
+    <div className="projects" id="projects">
       <div className="title">
         <h1> My Projects </h1>
         <div className="underline"></div>
