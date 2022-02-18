@@ -13,7 +13,7 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
           <h2> Muthukumaran </h2>{" "}
           <a
             className="resume"
-            href="https://drive.google.com/file/d/1Ud4NIgYuj-EvyGr7izP4pZVYPc9Fu1wZ/view?usp=sharing"
+            href="https://drive.google.com/file/d/1p9233jK6RQgBUD4cjOISGwurajDerHtf/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
